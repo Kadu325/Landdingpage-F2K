@@ -3,12 +3,44 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Landing Page F2K</title>
+        <!-- a seguir exemplo de CSS interno, fica preferenciamente no HEAD,
+         podendo tambem ficar no final da pagina-->
+         <style>
+            button {
+                width: 150px;
+                background-color: red;
+                border-radius: 15px;
+                border-color: grey;
+            }
+         </style>
+        
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <H1>Este é o titulo do meu site</H1>
+        <H1 style="color: blue;">Este é o titulo do meu site</H1> <!--Aqui tem ex: CSS Inline-->
         <h3>Este é o subtitulo do meu site</h3>
         <h6>Este é o conteudo do meu site</h6>
-        <p>Este é outro teste de texto</p>
-        <H1></H1>
+        <p>Este é outro teste de parágrafo</p>
+        <a href="https://www.google.com.br">ancora</a>
+        <br/>
+        <img src="https://www.google.com.br/google.jpg" alt="imagem do google"/>
+        <br/>
+        <button> este é um botão</button>
+        <br/>
+        <br/>
+        <H3>livros que gosto</H3>
+        <ul> <!-- aqui esta um exemplo de lista desortenada-->
+            <!--aqui vai  conteudo da lista-->
+                <li> livro "o primo rico"</li><!--aqui vai  conteudo da lista-->
+                <li>livro "os segredos da mente milionaria"</li>
+        </ul>
+        <h3>lista de afazeres</h3>
+        <ol><!--aqui esta um exemplo de uma lista ordenada-->
+            <!--aqui fica o conteudo da lista-->
+            <li>acordar</li>
+            <li>escovar os dentes</li>
+            <li>arrumar a cama</li> 
+            
+        </ol>
     </body>
 </html>

@@ -1,0 +1,4 @@
+tem 3 formas de inserir CSS
+CSS Inline
+CSS interno
+CSS externo 
