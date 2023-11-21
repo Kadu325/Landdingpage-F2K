@@ -2,3 +2,13 @@ tem 3 formas de inserir CSS
 CSS Inline
 CSS interno
 CSS externo 
+
+para adicionar estilo a um unico elemento pode se usar o ID que, 
+deve ser usado de maneira unica, caso precise estilizar varios 
+elementos de uma unica vez deve-se usar o CLASS. 
+para selecionar o ID usa o "#"
+para selecionar o CLASS usa o "."
+pode selecionar mais de um elemento na mesmas caracteristicas usando
+a virgula. 
+Quando tem uma tag dentro de outra basta dar um espaço comum. 
+
