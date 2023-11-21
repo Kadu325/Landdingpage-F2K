@@ -1,3 +1,8 @@
+*{
+    box-sizing: content-box; /*Caso adicione o border-box o tamanho que definir para o elemento
+                                sera contado todo ELE juntando o padding e o border*/
+}
+
 h3 {
     color: aqua;
     font-size: 8px;
@@ -6,26 +11,38 @@ h3 {
 img { 
     width: 150px;
 }
-a {
-    font-size: 14px;
-    color: gray;
-}
 li {
     font-weight: bold;
     color: blueviolet;
     font-size: 12px;
 }
+body {
+    margin: 0px; /*Boa pratica para que não distorça o tamanho da pagina*/
+}
+
+.cabecalho{
+    width: 100%;
+    height: 93px;
+    background-color: gray;
+    padding-top: 8px;
+}
+
 /*Este é um exemplo de como criar um circulo com CSS*/
-div {
+.logo {
     border-radius: 50%;
     width: 75px;
     height: 75px;
     background-color: rgb(156, 137, 111);
     border: 1px solid black;
+    padding: 4px; /*adiciona espaços na parte de dentro da DIV*/
+    margin-left: 8px;  /*Adiciona espaços na parte de fora da DIV*/
 }
 .texto1 {
     font-size: 10px;
     margin-left:1px;
     margin-top: 20px;
     text-align:center
+}
+.links {
+    
 }
